@@ -1,0 +1,25 @@
+{
+  "model": "ViT-B/32",
+  "dataset": "COCO",
+  "n_images": 1000,
+  "n_texts": 5001,
+  "n_augmentations": 16,
+  "baseline": {
+    "i2t_r1": 70.1,
+    "i2t_r5": 92.2,
+    "i2t_r10": 96.8
+  },
+  "memo": {
+    "i2t_r1": 71.89999999999999,
+    "i2t_r5": 93.10000000000001,
+    "i2t_r10": 97.0
+  },
+  "gain": {
+    "absolute": 1.7999999999999972,
+    "relative_pct": 2.567760342368053
+  },
+  "time": {
+    "total_seconds": 155.94258880615234,
+    "per_image_seconds": 0.15594258880615233
+  }
+}
